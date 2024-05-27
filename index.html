@@ -21,16 +21,11 @@
   <p class="js-moves"></p>
   <p class="game-score js-score"></p>
 
-  <button class="reset-button" onclick="
-  score.wins=0
-  score.loses=0
-  score.ties=0
-  localStorage.removeItem('score')
-  updateScore();
+  <button class="reset-button js-reset-button">Reset Score</button>
 
-  ">Reset Score</button>
+  <button class="autoplay-button js-autoplay-button">Auto Play</button>
 
-  <button class="autoplay-button" onclick="autoplay()">Autoplay</button>
+  <P class="js-confirmation-button"></p>
 
   <script src="script.js"></script>
 </body>
